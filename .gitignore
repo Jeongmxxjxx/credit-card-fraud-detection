@@ -1,0 +1,26 @@
+# === Virtual Environment (가상환경) ===
+venv/
+.venv/
+env/
+ENV/
+
+# === Python compiled files (파이썬 실행/캐시 파일) ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === IDEs / Editors (개발 도구 설정 파일) ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === OS generated files (운영체제 시스템 파일) ===
+.DS_Store
+Thumbs.db
+
+# === Data & Large Files (데이터 및 대용량 파일 - 필요시 주석 해제) ===
+*.csv
